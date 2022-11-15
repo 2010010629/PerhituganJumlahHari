@@ -38,6 +38,7 @@ public class login extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
+        setTitle("abdulwahid_2010010629");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setForeground(java.awt.Color.black);
         setIconImages(null);
@@ -123,9 +124,9 @@ public class login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       if ((jTextField1.getText().equals("Admin")) &&
+       if ((jTextField1.getText().equals("admin")) &&
                //Setting String Passwordnya sekarang
-               (String.valueOf(jPasswordField1.getPassword()).equals("Hello"))){
+               (String.valueOf(jPasswordField1.getPassword()).equals("admin"))){
            new PenentuJumlahHari().setVisible(true);
            dispose();
        }else{
